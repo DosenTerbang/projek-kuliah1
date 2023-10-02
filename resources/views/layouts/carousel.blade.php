@@ -1,27 +1,45 @@
 <section>
-    <video autoplay loop muted class="w-full h-56 md:h-96 lg:h-[500px] object-cover">
-        <source src="{{ asset('video/intro.mp4') }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    {{-- <div class="owl-carousel owl-theme">
+    <div class="owl-carousel owl-theme mt-4">
         <div class="item">
-            <div style="background-image: url({{ asset('img/rsbk.jpg') }})"
-                class="relative overflow-hidden w-full h-56 md:h-96 lg:h-[500px] bg-cover bg-center bg-no-repeat mb-5">
+            <div style="background-image: url({{ asset('img/slide1.jpeg') }})"
+                class="mb-5 flex h-56 w-full overflow-hidden bg-cover bg-center bg-no-repeat md:h-96 lg:h-[500px]">
                 <h1
-                    class="carousel-text text-4xl lg:text-6xl ml-6 opacity-0 font-bold text-white absolute top-6 animate__animated">
+                    class="carousel-text animate__animated m-auto mx-auto text-4xl font-bold text-white opacity-0 lg:text-8xl">
                     Teks Slide
                     1
                 </h1>
             </div>
         </div>
+
         <div class="item">
-            <div style="background-image: url({{ asset('img/rsbk.jpg') }})"
-                class="relative w-full h-56 md:h-96 lg:h-[500px] bg-cover bg-center bg-no-repeat mb-5">
+            <div style="background-image: url({{ asset('img/slide2.jpeg') }})"
+                class="relative mb-5 h-56 w-full bg-cover bg-center bg-no-repeat md:h-96 lg:h-[500px]">
                 <h1
-                    class="carousel-text text-4xl lg:text-6xl font-bold text-white opacity-0 absolute top-6 right-6 animate__animated">
+                    class="carousel-text animate__animated absolute right-6 top-6 text-4xl font-bold text-white opacity-0 lg:text-6xl">
                     Teks
                     Slide 2</h1>
             </div>
         </div>
-    </div> --}}
+
+        <div class="item">
+            <div style="background-image: url({{ asset('img/slide3.jpeg') }})"
+                class="relative mb-5 h-56 w-full overflow-hidden bg-cover bg-center bg-no-repeat md:h-96 lg:h-[500px]">
+                <h1
+                    class="carousel-text animate__animated absolute top-6 ml-6 text-4xl font-bold text-white opacity-0 lg:text-6xl">
+                    Teks Slide
+                    1
+                </h1>
+            </div>
+        </div>
+
+        <div class="item">
+            <div style="background-image: url({{ asset('img/slide4.jpeg') }})"
+                class="relative mb-5 h-56 w-full bg-cover bg-center bg-no-repeat md:h-96 lg:h-[500px]">
+                <h1
+                    class="carousel-text animate__animated absolute right-6 top-6 text-4xl font-bold text-white opacity-0 lg:text-6xl">
+                    Teks
+                    Slide 2</h1>
+            </div>
+        </div>
+    </div>
 </section>
