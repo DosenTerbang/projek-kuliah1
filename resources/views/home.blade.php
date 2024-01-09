@@ -48,7 +48,7 @@
                 <div
                     class="absolute inset-0 flex translate-y-[53%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                     <i
-                        class="fa-solid fa-hospital-user mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
+                        class="fa-solid fa-bus mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
                     <h1 class="mb-28 text-xl font-bold text-white group-hover:-translate-y-7 md:text-2xl">Perhubungan
                         Darat</h1>
                     <p
@@ -72,7 +72,7 @@
                 <div
                     class="absolute inset-0 flex translate-y-[53%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                     <i
-                        class="fa-solid fa-bed-pulse mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
+                        class="fa-solid fa-road-bridge mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
                     <h1 class="mb-28 text-xl font-bold text-white group-hover:-translate-y-7 md:text-2xl">Sarana dan
                         Prasarana</h1>
                     <p
@@ -96,7 +96,7 @@
                 <div
                     class="absolute inset-0 flex translate-y-[53%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                     <i
-                        class="fa-solid fa-vial mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
+                        class="fa-solid fa-ship mb-3 w-full text-center text-5xl text-white duration-200 group-hover:-translate-y-24"></i>
                     <h1 class="mb-28 text-xl font-bold text-white group-hover:-translate-y-7 md:text-2xl">Perhubungan Laut
                         dan Sungai</h1>
                     <p
@@ -125,7 +125,7 @@
 
         <div class="relative flex flex-wrap justify-between px-5">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.2326975627593!2d122.50542297420566!3d-3.972448044460692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d98ecde085619e3%3A0x5d4c17a67bded53e!2sRumah%20Sakit%20Bhayangkara%20Kendari!5e0!3m2!1sid!2sid!4v1692882814809!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4202965411337!2d122.27476962497711!3d-4.3319086956421025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da28168879f5f17%3A0xa54f8b3ccc9d8fd8!2sDINAS%20PERHUBUNGAN%20KOMUNIKASI%20DAN%20INFORMASI%20KONSEL!5e0!3m2!1sid!2sid!4v1704257772292!5m2!1sid!2sid"
                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 class="mb-6 h-[400px] w-full rounded-xl md:mb-0 md:w-[50%] lg:w-[65%]" data-aos="zoom-in-up"></iframe>
 
@@ -133,16 +133,12 @@
                 <div class="overflow-hidden rounded-md">
                     <img src="img/rsbk.jpg" alt="example"
                         class="h-44 w-full object-cover object-center brightness-75 duration-200 group-hover:rotate-2 group-hover:scale-105 group-hover:brightness-100">
-                    <h2 class="mt-2 font-bold text-yellow-600">Rumah Sakit Bhayangkara</h2>
+                    <h2 class="mt-2 font-bold text-yellow-600">Dishub Konawe SElatan</h2>
                     <div class="mt-5 flex items-center">
                         <i class="fa-solid fa-location-dot mr-3 text-yellow-500"></i>
-                        <p class="text-justify text-sm">Jl. Wayong No.7, Kec. Mandonga, Kota Kendari, Sulawesi
-                            Tenggara 93117
+                        <p class="text-justify text-sm">Jl. Poros Andoolo, Kompleks
+                            Perkantoran, Kab. Konawe Selatan 93819
                         </p>
-                    </div>
-                    <div class="mt-3 flex items-center">
-                        <i class="fa-solid fa-clock mr-3 text-yellow-500"></i>
-                        <p class="text-justify text-sm">Buka 24 jam</p>
                     </div>
                 </div>
             </div>
@@ -196,7 +192,7 @@
         </section>
     @endif
 
-    <section class="mb-10 mt-32">
+    {{-- <section class="mb-10 mt-32">
         <div class="relative mb-12 flex items-center justify-center" data-aos="fade-right">
             <hr class="mr-5 w-10 rounded-md border-2 border-yellow-700">
             <h2 class="text-center text-2xl font-bold lg:text-3xl">Alur Pendaftaran</h2>
@@ -217,7 +213,7 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     {{-- <section class="mt-32 mb-10">
         <div class="relative mb-12 flex justify-center items-center" data-aos="fade-right">

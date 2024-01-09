@@ -30,7 +30,7 @@
 </head>
 
 <body class="pt-[63px] font-merriweather text-slate-900 antialiased lg:pt-[88px]">
-    <div id="outerContainer" class="min-h-screen bg-slate-200">
+    <div id="outerContainer" class="min-h-screen bg-sky-100">
         @include('layouts.navigation')
 
         <!-- Page Heading -->
@@ -51,26 +51,38 @@
         <footer class="relative bg-slate-900">
             <section class="flex w-full flex-wrap justify-around px-5 pb-12 pt-12 text-slate-200 md:px-0 md:pb-0">
                 <div class="mb-8 w-full md:mb-0 md:w-auto">
-                    <h3 class="text-center font-semibold md:text-left">RS Bhayangkara Kendari</h3>
-                    <p class="mb-10 mt-2 text-center text-xs md:mb-7 md:mt-4 md:text-left">Jl. Wayong No. 7, Kendari</p>
-                    <p class="mb-3 flex items-center text-xs leading-6"><i class="fa-solid fa-phone mr-3"></i>
-                        +62 823 6060 7020</p>
-                    <p class="mb-3 flex items-center text-xs leading-6"><i class="fa-solid fa-truck-medical mr-3"></i>
+                    <h3 class="text-center font-semibold md:text-left">Dishub Konawe Selatan</h3>
+                    <p class="mb-10 mt-2 text-center text-xs md:mb-7 md:mt-4 md:text-left">Jl. Poros Andoolo, Kompleks
+                        Perkantoran, Kab. Konawe Selatan 93819</p>
+                    {{-- <p class="mb-3 flex items-center text-xs leading-6"><i class="fa-solid fa-phone mr-3"></i>
+                        +62 823 6060 7020</p> --}}
                     </p>
                     <p class="mb-3 flex items-center text-xs leading-6"><i class="fa-solid fa-envelope mr-3"></i><a
                             href="mailto:rumkitbhykendari@gmail.com"
-                            class="hover:text-yellow-500 active:text-yellow-700"> rumkitbhykendari@gmail.com</a></p>
+                            class="hover:text-yellow-500 active:text-yellow-700"> dishubkonsel.kab@gmail.com</a></p>
                 </div>
 
                 <div class="mb-8 w-[60%] md:mb-0 md:w-auto">
                     <h3 class="font-semibold">Pelayanan Kami</h3>
                     <div class="mt-4 flex flex-col text-xs">
                         <a href="{{ route('outpacient') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Rawat Jalan</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">PKB</a>
                         <a href="{{ route('inpacient') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Rawat Inap</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Perizinan Rekayasa Arus Lalu
+                            Lintas</a>
                         <a href="{{ route('support') }}"
-                            class="w-fit hover:text-yellow-500 active:text-yellow-700">Penunjang</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Retribusi</a>
+                        <a href="{{ route('support') }}"
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Parkir</a>
+                        <a href="{{ route('support') }}"
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Terminal</a>
+                        <a href="{{ route('support') }}"
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Pasar</a>
+                        <a href="{{ route('support') }}"
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Pemantauan Arus Darat dan
+                            Laut</a>
+                        <a href="{{ route('support') }}"
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Bus Sekolah</a>
                     </div>
                 </div>
 
@@ -79,20 +91,14 @@
 
                     <div class="mt-4 flex flex-col text-xs">
                         <a href="{{ route('doctorSchedule') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Jadwal Dokter</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Rekayasa Arus Lalu
+                            Lintas</a>
                         <a href="{{ route('bedInformation') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Informasi Tempat Tidur</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Pelabuhan dan Arus Laut</a>
                         <a href="{{ route('registrationFlow') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Alur Pendaftaran</a>
-                        <a href="{{ route('complaintProcedure') }}"
-                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Prosedur Komplain</a>
+                            class="mb-3 w-fit hover:text-yellow-500 active:text-yellow-700">Data Kendaraan</a>
+                        <a href="{{ route('complaintProcedure') }}" </div>
                     </div>
-                </div>
-
-                <div class="w-full md:w-auto">
-                    <h3 class="font-semibold">Jam Buka</h3>
-                    <p class="mt-4 text-xs">24 jam</p>
-                </div>
             </section>
 
             <section class="absolute bottom-[107px] right-9 flex justify-end pb-3 pr-3 text-xl text-white md:static">
@@ -105,7 +111,7 @@
             </section>
 
             <section class="w-full bg-slate-800 py-3 text-center text-xs text-slate-100">
-                <p>&copy; 2023 - RS. Bhayangkara Kendari</p>
+                <p>&copy; 2024 - Dishub Konawe Selatan</p>
             </section>
         </footer>
     </div>
